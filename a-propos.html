@@ -1,10 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>A propos</title>
 </head>
-<body>
 
+<body class="a-propos">
+    <header>
+        <h1><a href="index.html">Black Digital</a></h1>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="nosedive-et-la-surconsommation-des-reseaux-sociaux.html">Nosedive et la surconsommation des réseaux sociaux</a></li>
+                <li><a href="lacie-une-pollueuse-inconsciente.html">Lacie, une pollueuse inconsciente</a></li>
+                <li><a href="des-solutions-envisageables.html">Des solutions envisageables ?</a></li>
+                <li><a href="a-propos.html">A propos</a></li>
+                <li><a href="autres-projets.html">Autres projets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>A propos</h2>
+        <p>Je suis <strong>Sebastian CHEVALLIER</strong> et j’ai 18 ans. Etudiant
+            en première année de <strong>DUT Métiers du Multimédia et de
+                l’Internet</strong> à Montbéliard, j’ai créé ce site de A à Z dans le
+            cadre de mon projet individuel de premier semestre.
+        </p>
+        <p>L’exercice consistait à <strong>créer un site web</strong>, optimisé pour
+            iPhoneX, au sujet d’un aspect néfaste très peu connu du
+            web : <strong>la pollution numérique</strong>. Nous devions, à partir
+            d’une œuvre cinématographique, mettre en avant cette
+            pollution en la critiquant, puis en exposant des solutions
+            pour la réduire. J’ai donc choisi de parler de l’épisode 1
+            de la saison 3 de Black Mirror : <strong>Nosedive</strong> (ou <strong>Chute libre</strong>)
+            afin d’exposer le fait que l’utilisation excessive des
+            smartphones et des réseaux sociaux entraînent une
+            pollution beaucoup trop conséquente à l’échelle
+            planétaire. Enfin, j’ai montré quelques solutions à ce
+            problème.
+        </p>
+        <p>J’espère que mon site web vous a plu et qu’il a pu vous
+            être utile.</p>
+
+        <div class="contact">
+            <h2>Contactez-moi</h2>
+            <p>Si vous aviez une quelconque question, besoin d’un
+                renseignement ou, tout simplement, envie de me
+                donner votre avis sur mon site (critiques
+                constructives appréciées), contactez-moi grâce au
+                formulaire suivant.</p>
+            <form id="contact">
+                <div class="name">
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+
+                <div>
+                    <label for="mail">Votre adresse e-mail</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+
+                <div>
+                    <label for="object">Objet de votre message</label>
+                    <input id="object" name="message_object">
+                </div>
+
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <div>
+                    <a href="autres-projets.html">Envoyer</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            <p>Sebastian CHEVALLIER MMI TDA2</p>
+            <a href="mailto:sebastian.chvlr@gmail.com">sebastian.chvlr@gmail.com</a>
+        </address>
+
+        <ul class="reseaux-sociaux">
+            <li><a href="https://www.instagram.com/sebastian.chvlr/?hl=fr">Instagram</a></li>
+            <li><a href="https://www.facebook.com/sebastian.chvlr/">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/sebastian-chevallier-5558a11ba/">LinkedIn</a></li>
+        </ul>
+
+        <p class="mentions-legales">"Projet réalisé dans le cadre d'un exercice pédagogique
+            au département <a href="http://mmimontbeliard.com/">MMI de Montbéliard</a>"</p>
+    </footer>
 </body>
 </html>
