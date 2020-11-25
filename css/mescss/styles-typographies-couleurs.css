@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: "Roboto Bold Italic";
-    src: url("../fonts/Roboto-Bolditalic.ttf") format("truetype");
+    src: url("../fonts/Roboto-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
@@ -40,12 +40,12 @@
 
 @font-face {
     font-family: "Roboto Light Italic";
-    src: url("../fonts/Roboto-Lightitalic.ttf") format("truetype");
+    src: url("../fonts/Roboto-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto Medium Italic";
-    src: url("../fonts/Roboto-Mediumitalic.ttf") format("truetype");
+    src: url("../fonts/Roboto-MediumItalic.ttf") format("truetype");
 }
 
 @font-face {
