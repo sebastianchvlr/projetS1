@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Barlow Condensed Bold";
+    src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Barlow Condensed Italic";
+    src: url("../fonts/BarlowCondensed-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Barlow Condensed Medium";
+    src: url("../fonts/BarlowCondensed-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Barlow Condensed";
+    src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Bold Italic";
+    src: url("../fonts/Roboto-Bolditalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url("../fonts/Roboto-Lightitalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Medium Italic";
+    src: url("../fonts/Roboto-Mediumitalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
