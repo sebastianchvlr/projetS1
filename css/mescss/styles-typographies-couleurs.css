@@ -52,3 +52,67 @@
     font-family: "Roboto";
     src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.9rem;
+    color: black;
+}
+
+header>h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.accueil>main>h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 4rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Barlow Condensed Bold", sans-serif;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #6C3A57;
+}
+
+h2 span {
+    font-size: 3.4rem;
+    line-height: 4.1rem;
+}
+
+.nav-autres-pages h2 {
+    font-family: "Barlow Condensed Medium", sans-serif;
+    font-size: 2.4rem;
+    color: black;
+}
+
+#nav-article-1>h2, #nav-article-3>h2 {
+    color: white;
+}
+
+h3, h4 {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 1.9rem;
+    color: white;
+}
+
+h4 {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+}
