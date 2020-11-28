@@ -61,6 +61,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
     font-weight: normal;
+    font-style: normal;
     line-height: 1.9rem;
     color: black;
 }
@@ -94,6 +95,7 @@ h2 span {
 .nav-autres-pages h2 {
     font-family: "Barlow Condensed Medium", sans-serif;
     font-size: 2.4rem;
+    line-height: 2.9rem;
     color: black;
 }
 
@@ -115,4 +117,73 @@ h4 {
     font-size: 1.6rem;
     line-height: 1.9rem;
     text-align: center;
+}
+
+.tagline {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3.2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+strong {
+    font-weight: normal;
+}
+
+span.bold {
+    font-family: "Roboto Bold", sans-serif;
+}
+
+cite {
+    font-family: "Roboto Light Italic", sans-serif;
+    font-style: normal;
+}
+
+cite.bold {
+    font-family: "Roboto Bold Italic", sans-serif;
+}
+
+figcaption {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.accueil>main {
+    font-size: 1.6rem;
+}
+
+#nav-article-1, #nav-article-3 {
+    color: white;
+}
+
+#tweet\ article-1, #tweet\ article-2, #tweet\ article-3 {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.4rem;
+}
+
+.bouton {
+    font-family: "Bebas Neue", cursive;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 1.2rem;
+}
+
+address>p {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    font-family: "Roboto Bold Italic", sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+    color: #693c80;
 }
