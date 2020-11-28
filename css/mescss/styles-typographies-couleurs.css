@@ -66,16 +66,20 @@ body {
     color: black;
 }
 
-header>h1 {
+
+/*Typographies et couleurs des titres*/
+
+h1 {
     font-family: "Bebas Neue", cursive;
-    font-size: 2rem;
     font-weight: normal;
 }
 
+header>h1 {
+    font-size: 2rem;
+}
+
 .accueil>main>h1 {
-    font-family: "Bebas Neue", cursive;
     font-size: 4rem;
-    font-weight: normal;
     text-align: center;
 }
 
@@ -99,7 +103,7 @@ h2 span {
     color: black;
 }
 
-#nav-article-1>h2, #nav-article-3>h2 {
+h3, #nav-article-1>h2, #nav-article-3>h2 {
     color: white;
 }
 
@@ -109,14 +113,17 @@ h3, h4 {
 
 h3 {
     font-size: 2rem;
-    line-height: 1.9rem;
-    color: white;
 }
 
 h4 {
     font-size: 1.6rem;
-    line-height: 1.9rem;
     text-align: center;
+}
+
+/*Typographies et couleurs des éléments de l'accueil*/
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .tagline {
@@ -153,30 +160,30 @@ figcaption {
     font-size: 1.6rem;
 }
 
+.nav-autres-pages {
+    font-size: 1.4rem;
+}
+
 #nav-article-1, #nav-article-3 {
     color: white;
 }
 
 #tweet\ article-1, #tweet\ article-2, #tweet\ article-3 {
     font-family: "Roboto Light", sans-serif;
-    font-size: 1.4rem;
 }
 
 .bouton {
     font-family: "Bebas Neue", cursive;
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 footer {
     font-size: 1.2rem;
 }
 
-address>p {
+address {
     font-style: normal;
-}
-
-a {
     text-decoration: none;
     color: black;
 }
@@ -186,4 +193,8 @@ footer a {
     font-style: normal;
     text-decoration: underline;
     color: #693c80;
+}
+
+.reseaux-sociaux {
+    list-style-type: none;
 }
