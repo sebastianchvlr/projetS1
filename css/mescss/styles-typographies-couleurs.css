@@ -193,7 +193,7 @@ address {
     color: black;
 }
 
-footer a, main p a {
+footer a, main p a, a[href="https://lejournal.cnrs.fr/billets/le-big-data-est-il-polluant"]>cite {
     font-family: "Roboto Bold Italic", sans-serif;
     font-style: normal;
     text-decoration: underline;
@@ -216,7 +216,8 @@ footer a, main p a {
     text-align: center;
 }
 
-.article-1.partie-2 cite {
+/*Remplacer par p>a ?*/
+p>cite {
     font-family: "Roboto Italic", sans-serif;
 }
 
@@ -227,4 +228,18 @@ footer a, main p a {
 .nosedive-et-la-surconsommation-des-reseaux-sociaux .bouton, .lacie-une-pollueuse-inconsciente .bouton,
 .des-solutions-envisageables .bouton, .a-propos .bouton, .autres-projets .bouton {
     color: white;
+}
+
+.citation {
+    font-family: "Barlow Condensed Italic", sans-serif;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.article-2 ul {
+    list-style-type: none;
+}
+
+.article-2 ul>li::before {
+    content: "- ";
 }
