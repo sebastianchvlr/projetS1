@@ -29,6 +29,11 @@
 }
 
 @font-face {
+    font-family: "Roboto Italic";
+    src: url("../fonts/Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Roboto Bold Italic";
     src: url("../fonts/Roboto-BoldItalic.ttf") format("truetype");
 }
@@ -174,8 +179,8 @@ figcaption {
 
 .bouton {
     font-family: "Bebas Neue", cursive;
+    font-size: 1.6rem;
     text-decoration: none;
-    color: black;
 }
 
 footer {
@@ -188,7 +193,7 @@ address {
     color: black;
 }
 
-footer a {
+footer a, main p a {
     font-family: "Roboto Bold Italic", sans-serif;
     font-style: normal;
     text-decoration: underline;
@@ -197,4 +202,29 @@ footer a {
 
 .reseaux-sociaux {
     list-style-type: none;
+}
+
+
+.chapeau, .chapeau cite {
+    font-family: "Roboto Medium Italic", sans-serif;
+    font-size: 1.6rem;
+}
+
+.carrousel-items {
+    font-family: "Roboto Medium Italic", sans-serif;
+    list-style-type: none;
+    text-align: center;
+}
+
+.article-1.partie-2 cite {
+    font-family: "Roboto Italic", sans-serif;
+}
+
+.accueil .bouton {
+    color: black;
+}
+
+.nosedive-et-la-surconsommation-des-reseaux-sociaux .bouton, .lacie-une-pollueuse-inconsciente .bouton,
+.des-solutions-envisageables .bouton, .a-propos .bouton, .autres-projets .bouton {
+    color: white;
 }
