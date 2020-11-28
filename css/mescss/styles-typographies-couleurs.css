@@ -236,10 +236,16 @@ p>cite {
     line-height: 2.4rem;
 }
 
-.article-2 ul {
+.article-2 ul, .article-3 ul {
     list-style-type: none;
 }
 
-.article-2 ul>li::before {
+.article-2 ul>li::before, .article-3 ul>li::before {
     content: "- ";
+}
+
+#citation {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 2rem;
+    text-align: center;
 }
