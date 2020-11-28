@@ -254,3 +254,9 @@ p>cite {
     font-family: "Roboto Light", sans-serif;
     line-height: 1.7rem;
 }
+
+.autres-projets span.name {
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
