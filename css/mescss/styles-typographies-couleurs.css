@@ -91,6 +91,7 @@ header>h1 {
 h2 {
     font-family: "Barlow Condensed Bold", sans-serif;
     font-size: 2.8rem;
+    font-weight: normal;
     line-height: 3.4rem;
     text-align: center;
     color: #6C3A57;
@@ -114,6 +115,7 @@ h3, #nav-article-1>h2, #nav-article-3>h2 {
 
 h3, h4 {
     font-family: "Barlow Condensed", sans-serif;
+    font-weight: normal;
 }
 
 h3 {
@@ -259,4 +261,9 @@ p>cite {
     font-family: "Roboto Medium", sans-serif;
     font-size: 1.6rem;
     text-align: center;
+}
+
+
+h2, h3, h4 {
+    background-color: rosybrown;
 }
