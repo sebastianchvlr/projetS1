@@ -1,0 +1,117 @@
+.nav-toggle {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 25px;
+    left: 343px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.nav-toggle-bar, .nav-toggle-bar::before, .nav-toggle-bar::after {
+    content: "";
+    background-color: black;
+    border-radius: 20px;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    transition: all .4s ease-in-out;
+}
+
+.nav-toggle-bar::before {
+    top: -6px;
+}
+
+.nav-toggle-bar::after {
+    top: 6px;
+}
+
+.menu-open .nav-toggle-bar {
+    transform: rotate(135deg);
+    background-color: black;
+    height: 2px;
+}
+
+.menu-open .nav-toggle-bar::before, .menu-open .nav-toggle-bar::after {
+    transform: rotate(90deg);
+    background-color: black;
+    height: 2px;
+    top: 0
+}
+
+.menu {
+    background-color: #EDDAE2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100vw);
+    transition: all .4s;
+    z-index: 1;
+}
+
+.menu-open .menu {
+    transform: translateX(0);
+}
+/*Bug IOS --> L'overflow doit être appliqué sur l'élément
+body ET htmlpour faire disparaître le scroll sur Safari IOS*/
+.menu-open, .menu-open body {
+    overflow: hidden;
+}
+
+.menu li {
+    transform: translateX(30px);
+    opacity: 0;
+    transition: all .4s ease;
+}
+
+.menu-open .menu li {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.menu-open .menu li:nth-child(n+1) {
+    transition-delay: .3s
+}
+
+.menu-open .menu li:nth-child(n+2) {
+    transition-delay: .35s
+}
+
+.menu-open .menu li:nth-child(n+3) {
+    transition-delay: .4s
+}
+
+.menu-open .menu li:nth-child(n+4) {
+    transition-delay: .45s
+}
+
+.menu-open .menu li:nth-child(n+5) {
+    transition-delay: .5s
+}
+
+.menu-open .menu li:nth-child(n+6) {
+    transition-delay: .55s
+}
+
+
+.nav-principale {
+    font-family: "Barlow Condensed Medium", sans-serif;
+    font-size: 3rem;
+    list-style-type: none;
+    padding-inline-start: 0;
+    line-height: 3.6rem;
+    text-align: center;
+}
+
+.nav-principale li:nth-child(2), .nav-principale li:nth-child(3), .nav-principale li:nth-child(4) {
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+}
