@@ -103,7 +103,8 @@ body ET htmlpour faire disparaître le scroll sur Safari IOS*/
 
 
 .nav-principale {
-    font-family: "Barlow Condensed Medium", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
     font-size: 3rem;
     list-style-type: none;
     padding-inline-start: 0;
