@@ -15,3 +15,24 @@ html {
     background-color: #F2F2F2;
     border: 0.5px solid #000;
 }
+
+.carrousel-item>img {
+    border: 3px solid #EBDE8B;
+}
+
+.carrousel-item>a {
+    background-color: #EBDE8B;
+}
+
+.article-1.partie-2, .article-2.partie-2, .article-3.partie-2, .article-3.partie-4 {
+    background: #EDDAE2;
+}
+
+.bouton {
+    border-radius: 11px;
+    background: #693C80;
+}
+
+.article-2.partie-2 figure:first-of-type>img {
+    border: 3px solid #F2F2F2;
+}
