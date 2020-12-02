@@ -74,3 +74,30 @@ footer {
     background: rgba(242, 242, 242, 0.9);
     border: 1px solid rgba(255, 255, 255, 0.85);
 }
+
+.reseaux-sociaux li:nth-child(1)>a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../../img/instagram.png');
+    background-size: 25px 25px;
+    text-indent: -9999px;
+}
+
+.reseaux-sociaux li:nth-child(2)>a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../../img/facebook.png');
+    background-size: 25px 25px;
+    text-indent: -9999px;
+}
+
+.reseaux-sociaux li:nth-child(3)>a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../../img/linkedin.png');
+    background-size: 25px 25px;
+    text-indent: -9999px;
+}
