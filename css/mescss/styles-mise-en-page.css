@@ -1,0 +1,23 @@
+/*.reseaux-sociaux, address {*/
+/*    display: table;*/
+/*}*/
+
+/*.reseaux-sociaux {*/
+/*    display: flex;*/
+/*    width: 95px;*/
+/*    height: 25px;*/
+/*    position: absolute;*/
+/*    top: 2503px;*/
+/*    left: 263px;*/
+/*    float: right;*/
+/*    vertical-align: top;*/
+/*}*/
+
+/*.reseaux-sociaux li:nth-child(-n+2)>a {*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*address {*/
+/*    width: 200px;*/
+/*}*/
+
