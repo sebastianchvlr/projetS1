@@ -1,23 +1,15 @@
-/*.reseaux-sociaux, address {*/
-/*    display: table;*/
-/*}*/
+.reseaux-sociaux {
+    display: inline-flex;
+    padding: 0;
+    width: 95px;
+    height: 25px;
+    float: right;
+}
 
-/*.reseaux-sociaux {*/
-/*    display: flex;*/
-/*    width: 95px;*/
-/*    height: 25px;*/
-/*    position: absolute;*/
-/*    top: 2503px;*/
-/*    left: 263px;*/
-/*    float: right;*/
-/*    vertical-align: top;*/
-/*}*/
+.reseaux-sociaux li:nth-child(-n+2)>a {
+    margin-right: 1rem;
+}
 
-/*.reseaux-sociaux li:nth-child(-n+2)>a {*/
-/*    margin-right: 10px;*/
-/*}*/
-
-/*address {*/
-/*    width: 200px;*/
-/*}*/
-
+address {
+    display: inline-block;
+}
