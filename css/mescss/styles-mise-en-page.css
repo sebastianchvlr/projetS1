@@ -18,13 +18,22 @@ img {
 
 
 /*REVOIR LES SELECTEURS*/
-article.article-1 figure>img {
+article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img {
     width: 100%;
     height: auto;
 }
 
 .article-1.partie-3 figure>img {
     width: 90%;
+}
+
+
+.article-2.partie-1 figure:last-of-type>img, .article-2.partie-2 figure:last-of-type>img {
+    width: 87%;
+}
+
+.article-2.partie-2 figure:first-of-type>img {
+    width: 40%;
 }
 
 
@@ -42,4 +51,29 @@ article.article-1 figure>img {
 
 address {
     display: inline-block;
+}
+
+
+
+
+
+
+
+/*REVOIR CENTRAGE TEXTE DANS RECTANGLE*/
+.autres-projets h2 {
+    display: block;
+    width: 20.2rem;
+    height: 4.3rem;
+    margin: 3rem auto 0;
+}
+
+.a-propos>main>h2:first-of-type {
+    display: block;
+    width: 14.3rem;
+    height: 3.8rem;
+    margin: 3rem auto 0;
+}
+
+.a-propos>main p:nth-child(1) {
+    margin-top: 2rem;
 }
