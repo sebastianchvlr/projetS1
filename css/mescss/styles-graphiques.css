@@ -33,6 +33,14 @@ html {
     background: #693C80;
 }
 
+#fleche-bas {
+    opacity: 0.85;
+}
+
+#nav-article-1 figure:first-of-type>img {
+    border: 5px solid #F2F2F2;
+}
+
 .article-2.partie-2 figure:first-of-type>img {
     border: 3px solid #F2F2F2;
 }

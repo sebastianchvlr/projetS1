@@ -18,7 +18,7 @@ img {
 
 
 /*REVOIR LES SELECTEURS*/
-article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img, .article-3 figure>img{
+article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img, .article-3 figure>img, .accueil figure>img {
     width: 100%;
     height: auto;
 }
@@ -43,6 +43,26 @@ article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img, .art
 
 .article-3.partie-5 figure>img {
     width: 51%;
+}
+
+
+#nav-article-3 figure>img {
+    width: 95%;
+}
+
+#fleche-bas {
+    width: 10%;
+}
+
+
+.bouton {
+    display: block;
+    width: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
 }
 
 
