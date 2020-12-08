@@ -18,7 +18,7 @@ img {
 
 
 /*REVOIR LES SELECTEURS*/
-article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img {
+article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img, .article-3 figure>img{
     width: 100%;
     height: auto;
 }
@@ -34,6 +34,15 @@ article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img {
 
 .article-2.partie-2 figure:first-of-type>img {
     width: 40%;
+}
+
+
+.article-3.partie-1 figure>img {
+    width: 44%;
+}
+
+.article-3.partie-5 figure>img {
+    width: 51%;
 }
 
 
