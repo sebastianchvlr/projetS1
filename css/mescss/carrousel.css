@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar {
-    height: 2rem;
+    height: 0.2rem;
 }
 
 
@@ -28,6 +28,7 @@
 }
 
 .carrousel-item {
+    display: block;
     flex: 1 0 26.7rem;
     margin-right: 2rem;
     scroll-snap-align: center;

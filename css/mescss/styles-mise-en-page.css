@@ -3,6 +3,31 @@ p {
     margin-right: 1.5rem;
 }
 
+figure {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*REVOIR LES SELECTEURS*/
+article.article-1 figure>img {
+    width: 100%;
+    height: auto;
+}
+
+.article-1.partie-3 figure>img {
+    width: 90%;
+}
+
+
 .reseaux-sociaux {
     display: inline-flex;
     padding: 0;
