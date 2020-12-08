@@ -1,0 +1,70 @@
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    height: 2rem;
+}
+
+
+.carrousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.carrousel-items {
+    display: flex;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    padding: 1rem 0;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carrousel-item {
+    flex: 1 0 26.7rem;
+    margin-right: 2rem;
+    scroll-snap-align: center;
+}
+
+.carrousel-item>a {
+    display: inline-block;
+    width: 26.7rem;
+    padding: 1rem 0;
+}
+
+.carrousel-item:nth-child(1) {
+    padding-left: 5.4rem;
+}
+
+.carrousel-item:nth-child(5) {
+    padding-right: 5.4rem;
+}
+
+/*TROUVER ALTERNATIVE POUR MEILLEUR RENDU GRAPHIQUE*/
+
+/*.carrousel-item:nth-child(1)>a {*/
+/*    padding: 1rem 7.5rem;*/
+/*}*/
+
+/*.carrousel-item:nth-child(2)>a {*/
+/*    padding: 1rem 4.2rem;*/
+/*}*/
+
+/*.carrousel-item:nth-child(3)>a {*/
+/*    padding: 1rem 6rem;*/
+/*}*/
+
+/*.carrousel-item:nth-child(4)>a {*/
+/*    padding: 1rem 4.8rem;*/
+/*}*/
+
+/*.carrousel-item:nth-child(5)>a {*/
+/*    padding: 1rem 4.1rem;*/
+/*}*/
