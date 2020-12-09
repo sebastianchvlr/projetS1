@@ -150,10 +150,20 @@ footer>address>p {
 }
 
 
-article>header {
-    margin-top: 9.5rem;
+.a-propos>main>h2, .autres-projets>main>h2, article>header {
     margin-left: auto;
     margin-right: auto;
+}
+
+.autres-projets>main>h2 {
+    margin: 0;
+}
+
+.a-propos>main>h2 {
+    margin: 0;
+}
+article>header {
+    margin-top: 9.5rem;
 }
 
 .article-1>header {
@@ -166,6 +176,24 @@ article>header {
 
 .article-3>header {
     width: 83%;
+}
+
+.a-propos>main>h2 {
+    width: 38%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.autres-projets>main>h2 {
+    width: 54%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
 }
 
 .chapeau {
@@ -290,6 +318,58 @@ article .tagline {
     text-align: center;
     margin: 3rem auto;
 }
+
+.a-propos>main>p:first-of-type, .autres-projets>main>p:first-of-type {
+    margin-top: 3.5rem;
+}
+
+.a-propos, .autres-projets {
+    padding-top: 9.5rem;
+}
+
+.contact {
+    width: 92%;
+    margin: 5rem auto 3rem;
+}
+
+.contact>h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+form#contact {
+    margin: 2rem 0;
+}
+
+form#contact input, form#contact textarea {
+    display: block;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form#contact label {
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+form#contact input {
+    margin-bottom: 1rem;
+}
+
+form#contact .bouton {
+    margin-top: 2rem;
+}
+
+form#contact  div:nth-of-type(-n+3)>input {
+    height: 3rem;
+}
+
+form#contact textarea {
+    height: 9rem;
+}
+
+
 
 
 .reseaux-sociaux {
