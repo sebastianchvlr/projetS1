@@ -1,6 +1,7 @@
 p {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    margin-top: 2rem;
 }
 
 figure {
@@ -10,7 +11,7 @@ figure {
     margin-inline-end: 0;
 }
 
-img {
+img, figcaption {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -70,6 +71,88 @@ body>header {
     position: fixed;
     top: 0;
 }
+
+
+.accueil>main>h1 {
+    line-height: 32px;
+    margin-top: 9.5rem;
+}
+
+.accueil .tagline, .accueil .nav-autres-pages {
+    margin-top: 2rem;
+}
+
+.accueil>main p:nth-of-type(2), .accueil>main>figure:first-of-type>img {
+    margin-top: 4rem;
+}
+
+.accueil>main>figure:first-of-type>img {
+    margin-bottom: 0.5rem;
+}
+
+.accueil>main p:nth-of-type(4) {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+/*.accueil>main>*:nth-child(-n+6) {*/
+/*    position: fixed;*/
+/*    z-index: 0;*/
+/*}*/
+
+#nav-article-1>h2, #nav-article-2>h2, #nav-article-3>h2 {
+    margin: 0;
+}
+
+.nav-autres-pages img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#nav-article-1, #nav-article-2, #nav-article-3, #nav-autres-projets, #nav-a-propos {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#tweet\ article-1, #tweet\ article-2, #tweet\ article-3 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#nav-autres-projets, #nav-a-propos {
+    display: table-cell;
+    width: 50vw;
+}
+
+
+footer>address>p, .mentions-legales {
+    margin: 0;
+}
+
+footer>address, .mentions-legales {
+    margin-left: 1.5rem;
+}
+
+footer>address>p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.mentions-legales {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.reseaux-sociaux {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+}
+
+
+
+
+
 
 
 .reseaux-sociaux {
