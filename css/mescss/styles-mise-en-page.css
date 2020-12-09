@@ -66,6 +66,12 @@ article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img, .art
 }
 
 
+header {
+    position: fixed;
+    top: 0;
+}
+
+
 .reseaux-sociaux {
     display: inline-flex;
     padding: 0;
