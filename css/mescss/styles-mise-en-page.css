@@ -150,9 +150,73 @@ footer>address>p {
 }
 
 
+.article-1>header {
+    margin-top: 9.5rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.article-1 .chapeau {
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+    margin-top: 4.5rem;
+}
 
+.article-1>figure>img {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
 
+.article-1 h3 {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem;
+    width: 100%;
+    height: 4%;
+}
+
+.article-1.partie-1>p:first-of-type {
+    margin-bottom: 0;
+}
+
+.article-1 video {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.article-1.partie-1>p:nth-of-type(2) {
+    margin: 0;
+    text-align: center;
+}
+
+.carrousel>h4 {
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.article-1.partie-1>.carrousel+p, .article-1.partie-1>p:nth-last-of-type(2), .article-1.partie-2>p:last-of-type, .article-1.partie-3>p:last-of-type {
+    margin-top: 3rem;
+}
+
+.article-1.partie-1>figure>figcaption {
+    width: 70%;
+}
+
+.article-1.partie-2 {
+    padding-bottom: 2rem;
+}
+
+.article-1.partie-3>h3 {
+    margin-top: 0;
+}
+
+.article-1.partie-3 .bouton {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 
 
 .reseaux-sociaux {
