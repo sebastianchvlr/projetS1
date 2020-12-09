@@ -110,7 +110,7 @@ body>header {
     margin-bottom: 2rem;
 }
 
-#nav-article-1, #nav-article-2, #nav-article-3, #nav-autres-projets, #nav-a-propos {
+#nav-article-1, #nav-article-2, #nav-article-3, .accueil #nav-autres-projets, .accueil #nav-a-propos {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -120,7 +120,7 @@ body>header {
     margin-top: 2rem;
 }
 
-#nav-autres-projets, #nav-a-propos {
+.accueil #nav-autres-projets, .accueil #nav-a-propos {
     display: table-cell;
     width: 50vw;
 }
@@ -150,7 +150,7 @@ footer>address>p {
 }
 
 
-.article-1>header, .article-2>header {
+article>header {
     margin-top: 9.5rem;
     margin-left: auto;
     margin-right: auto;
@@ -164,7 +164,11 @@ footer>address>p {
     width: 60%;
 }
 
-.article-1 .chapeau, .article-2 .chapeau {
+.article-3>header {
+    width: 83%;
+}
+
+.chapeau {
     margin-left: 1.7rem;
     margin-right: 1.7rem;
     margin-top: 3.5rem;
@@ -174,12 +178,12 @@ footer>address>p {
     margin-top: 2rem;
 }
 
-.article-1>figure>img, .article-2>figure>img {
+article figure>img {
     margin-top: 3rem;
     margin-bottom: 0.5rem;
 }
 
-.article-1 h3, .article-2 h3 {
+article h3 {
     margin-top: 3rem;
     margin-bottom: 2.5rem;
     padding-top: 0.3rem;
@@ -193,8 +197,11 @@ footer>address>p {
     margin-bottom: 0;
 }
 
-.article-1 video {
+video {
     margin-top: 3rem;
+}
+
+.article-1 video {
     margin-bottom: 1rem;
 }
 
@@ -214,6 +221,10 @@ footer>address>p {
     margin-top: 3rem;
 }
 
+article figure+p, .article-scientifique+p, .article-3 video+p {
+    margin-top: 3rem;
+}
+
 .article-1.partie-1>figure>figcaption {
     width: 70%;
 }
@@ -222,7 +233,11 @@ footer>address>p {
     width: 61%;
 }
 
-.article-1.partie-2, .article-2.partie-2 {
+.article-3.partie-5>figure>figcaption {
+    width: 38%;
+}
+
+.article-1.partie-2, .article-2.partie-2, .article-3.partie-2, .article-3.partie-4 {
     padding-bottom: 2rem;
 }
 
@@ -230,11 +245,11 @@ footer>address>p {
     margin-bottom: 1rem;
 }
 
-.article-1.partie-3>h3, .article-2.partie-3>h3 {
+.article-1.partie-3>h3, .article-2.partie-3>h3, .article-3.partie-3>h3, .article-3.partie-5>h3 {
     margin-top: 0;
 }
 
-.article-1.partie-3 .bouton, .article-2.partie-3 .bouton {
+article .bouton {
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
@@ -246,7 +261,13 @@ footer>address>p {
     margin: 4rem auto;
 }
 
-.citation:after, .citation::before {
+#citation {
+    display: block;
+    width: 64%;
+    margin: 3rem auto;
+}
+
+.citation:after, q.citation::before {
     display: none;
 }
 
@@ -256,12 +277,18 @@ footer>address>p {
     padding-bottom: 0.7rem;
 }
 
-.article-2.partie-2 ul {
-    margin-top: 2rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+.article-2.partie-2 ul, .article-3.partie-4 ul {
+    margin: 2rem 1.5rem 0;
     padding: 0;
+}
 
+.article-3.partie-4 ul {
+    margin-bottom: 1rem;
+}
+
+article .tagline {
+    text-align: center;
+    margin: 3rem auto;
 }
 
 
