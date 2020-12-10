@@ -439,3 +439,18 @@ form#contact textarea {
 address {
     display: inline-block;
 }
+
+.nav-principale {
+    width: 82%;
+    height: 58%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-principale>li:nth-child(-n+5) {
+    margin-bottom: 6rem;
+}
+
+.nav-principale>li:nth-child(2), .nav-principale>li:nth-child(3) {
+    margin-bottom: 3rem;
+}
