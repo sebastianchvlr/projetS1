@@ -369,8 +369,60 @@ form#contact textarea {
     height: 9rem;
 }
 
+.projets>.gauche img, .projets>.droite img {
+    width: 47%;
+    height: auto;
+}
 
+.autres-projets .gauche, .autres-projets .droite {
+    display: table-cell;
+    width: 50%;
+}
 
+.projets .gauche {
+    padding-left: 2rem;
+    padding-right: 0.75rem;
+}
+
+.projets .droite {
+    padding-right: 2rem;
+    padding-left: 0.75rem;
+}
+
+.projets {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 3rem;
+    margin-block-end: 3rem;
+}
+
+.projet.hamza-el-kinani>img {
+    width: 20%;
+}
+
+.projet.hamza-el-kinani>a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projet>a {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 42vw;
+    height: 13vw;
+}
+
+.projet>a>.name {
+    display: block;
+    padding-top: 0.6rem;
+}
+
+.projet>a>cite {
+    display: block;
+    padding-bottom: 0.6rem;
+}
 
 .reseaux-sociaux {
     display: inline-flex;
