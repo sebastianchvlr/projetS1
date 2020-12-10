@@ -72,10 +72,43 @@ body>header {
     top: 0;
 }
 
+.accueil main>*:nth-child(-n+6) {
+    position: sticky;
+    z-index: -1;
+}
 
 .accueil>main>h1 {
     line-height: 32px;
-    margin-top: 9.5rem;
+    width: 46.4%;
+    top: 9.5rem;
+    left: 10.1rem;
+}
+
+.accueil>main .tagline {
+    top: 16.6rem;
+    left: 2.1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.accueil>main>p:nth-of-type(2) {
+    top: 24.8rem;
+}
+
+.accueil>main>p:nth-of-type(3) {
+    top: 32.5rem;
+}
+
+.accueil>main>figure:first-of-type {
+    top: 43.8rem;
+}
+
+.accueil>main>p:nth-of-type(4) {
+    top: 71.3rem;
+}
+
+#fleche-bas {
+    margin-top: 15rem;
 }
 
 .accueil .tagline, .accueil .nav-autres-pages {
@@ -454,3 +487,4 @@ address {
 .nav-principale>li:nth-child(2), .nav-principale>li:nth-child(3) {
     margin-bottom: 3rem;
 }
+
