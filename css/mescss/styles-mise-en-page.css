@@ -28,6 +28,10 @@ article.article-1 figure>img, .article-2.partie-1 figure:first-of-type>img, .art
     height: auto;
 }
 
+#nav-article-1>figure>img {
+    width: 97.3%;
+}
+
 .article-1.partie-3 figure>img {
     width: 90%;
 }
@@ -475,4 +479,3 @@ form#contact textarea {
 address {
     display: inline-block;
 }
-

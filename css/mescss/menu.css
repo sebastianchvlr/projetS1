@@ -125,9 +125,10 @@ body ET html pour faire disparaître le scroll sur Safari IOS*/
 .nav-principale>li:first-child:after, .nav-principale>li:nth-child(4):after, .nav-principale>li:nth-child(5):after {
     content: url("../../img/ligne.png");
     display: block;
+    line-height: 0;
     width: 81%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 0;
+    margin: 2rem auto 4rem;
 }
 
 .nav-principale>li:nth-child(2), .nav-principale>li:nth-child(3) {
