@@ -41,11 +41,11 @@
 }
 
 .carrousel-item:nth-child(1) {
-    padding-left: 5.4rem;
+    margin-left: 5.4rem;
 }
 
 .carrousel-item:nth-child(5) {
-    padding-right: 5.4rem;
+    margin-right: 5.4rem;
 }
 
 /*TROUVER ALTERNATIVE POUR MEILLEUR RENDU GRAPHIQUE*/
