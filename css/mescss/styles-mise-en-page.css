@@ -80,6 +80,7 @@ body>header {
     top: 0;
 }
 
+/*Positionnement fixe de la page d'accueil*/
 .accueil main>*:nth-child(-n+6) {
     position: sticky;
     z-index: -1;
@@ -87,16 +88,11 @@ body>header {
 
 .accueil>main>h1 {
     line-height: 32px;
-    width: 46.4%;
     top: 9.5rem;
-    left: 10.1rem;
 }
 
 .accueil>main .tagline {
     top: 16.6rem;
-    left: 2.1rem;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .accueil>main>p:nth-of-type(2) {
@@ -265,12 +261,13 @@ article h3 {
     margin-bottom: 0;
 }
 
-video {
+.article-1 video {
     margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
-.article-1 video {
-    margin-bottom: 1rem;
+.article-3 video {
+    margin: 0;
 }
 
 .article-1.partie-1>p:nth-of-type(2) {
@@ -301,6 +298,14 @@ article figure+p, .article-scientifique+p, .article-3 video+p {
     width: 61%;
 }
 
+.article-2.partie-2>figure:first-of-type>figcaption {
+    width: 49%;
+}
+
+.article-3.partie-1>figure>figcaption {
+    width: 46%;
+}
+
 .article-3.partie-5>figure>figcaption {
     width: 38%;
 }
@@ -326,7 +331,7 @@ article .bouton {
 .citation {
     display: block;
     width: 86%;
-    margin: 4rem auto;
+    margin: 2rem auto 4rem;
 }
 
 #citation {
@@ -335,8 +340,20 @@ article .bouton {
     margin: 3rem auto;
 }
 
-.citation:after, q.citation::before {
-    display: none;
+q.citation:after, q.citation::before {
+    content: url("../../img/ligne-citation.png");
+    display: block;
+    line-height: 0;
+    width: 40%;
+    height: 0;
+}
+
+q.citation:after {
+    margin: 1rem auto;
+}
+
+q.citation::before {
+    margin: 2rem auto;
 }
 
 .article-2.partie-2>h3 {

@@ -40,32 +40,12 @@
     padding: 1rem 0;
 }
 
-.carrousel-item:nth-child(1) {
-    margin-left: 5.4rem;
-}
-
-.carrousel-item:nth-child(5) {
-    margin-right: 5.4rem;
-}
-
-/*TROUVER ALTERNATIVE POUR MEILLEUR RENDU GRAPHIQUE*/
-
-/*.carrousel-item:nth-child(1)>a {*/
-/*    padding: 1rem 7.5rem;*/
+/*Ne fonctionne que d'un côté*/
+/*Coller les deux au bords pour plus de cohérence*/
+/*.carrousel-item:nth-child(1) {*/
+/*    margin-left: 5.4rem;*/
 /*}*/
 
-/*.carrousel-item:nth-child(2)>a {*/
-/*    padding: 1rem 4.2rem;*/
-/*}*/
-
-/*.carrousel-item:nth-child(3)>a {*/
-/*    padding: 1rem 6rem;*/
-/*}*/
-
-/*.carrousel-item:nth-child(4)>a {*/
-/*    padding: 1rem 4.8rem;*/
-/*}*/
-
-/*.carrousel-item:nth-child(5)>a {*/
-/*    padding: 1rem 4.1rem;*/
+/*.carrousel-item:nth-child(5) {*/
+/*    margin-right: 5.4rem;*/
 /*}*/
