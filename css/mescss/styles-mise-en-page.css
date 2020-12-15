@@ -203,16 +203,8 @@ article>header {
     margin-top: 9.5rem;
 }
 
-.article-1>header {
-    width: 95%;
-}
-
 .article-2>header {
     width: 60%;
-}
-
-.article-3>header {
-    width: 83%;
 }
 
 .a-propos>main>h2 {

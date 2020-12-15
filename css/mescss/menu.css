@@ -1,3 +1,4 @@
+/*Logo hamburger*/
 .nav-toggle {
     width: 17px;
     height: 17px;
@@ -41,6 +42,7 @@
     top: 0
 }
 
+/*Menu*/
 .menu {
     background-color: #EDDAE2;
     position: fixed;
@@ -77,7 +79,7 @@ body ET html pour faire disparaître le scroll sur Safari IOS*/
     opacity: 1;
 }
 
-
+/*Transitions décalées des li*/
 .menu-open .menu li:nth-child(n+1) {
     transition-delay: .2s
 }
@@ -103,6 +105,7 @@ body ET html pour faire disparaître le scroll sur Safari IOS*/
 }
 
 
+/*Typographies, couleurs, mise en page du menu*/
 .nav-principale {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
